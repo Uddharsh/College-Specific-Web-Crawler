@@ -1,0 +1,832 @@
+<html>
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+  	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  	<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js'></script>
+  	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
+	<link rel='stylesheet' type='text/css' href='https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css'>
+	<script type='text/javascript' charset='utf8' src='https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js'></script>
+</head>
+<body>
+	<div class="container-fluid">
+<table class='table table-striped table-bordered table-hover' cellspacing='0' width='100%' id='webptableid'>
+	<thead>
+		<tr>
+			<th>webpage Heading</th>
+			<th>Webpage Link</th>
+		</tr>
+	</thead>
+	<tbody id="webptab">
+		<tr>
+			<td>360 degree view</td>
+			<td><a href="https://mrcet.com/Old_18112017/new/360virtualtour/Index.html" target="_blank">https://mrcet.com/Old_18112017/new/360virtualtour/Index.html</a></td>
+		</tr>
+		<tr>
+			<td>AICTE Approvals</td>
+			<td><a href="https://www.mrcet.com/AICTEApprovals.html" target="_blank">https://www.mrcet.com/AICTEApprovals.html</a></td>
+		</tr>
+		<tr>
+			<td>About MRCET</td>
+			<td><a href="https://www.mrcet.com/Campus.html" target="_blank">https://www.mrcet.com/Campus.html</a></td>
+		</tr>
+		<tr>
+			<td>About MRGI</td>
+			<td><a href="https://www.mrcet.com/AboutMRGI.html" target="_blank">https://www.mrcet.com/AboutMRGI.html</a></td>
+		</tr>
+		<tr>
+			<td>Aeronautical Engineering</td>
+			<td><a href="https://www.mrcet.com/AE.html" target="_blank">https://www.mrcet.com/AE.html</a></td>
+		</tr>
+		<tr>
+			<td>Alumni</td>
+			<td><a href="https://www.mrcet.com/alumni.html" target="_blank">https://www.mrcet.com/alumni.html</a></td>
+		</tr>
+		<tr>
+			<td>Category B Notifications</td>
+			<td><a href="https://www.mrcet.com/CategoryBNotifications.html" target="_blank">https://www.mrcet.com/CategoryBNotifications.html</a></td>
+		</tr>
+		<tr>
+			<td>Computer Science & Engineering</td>
+			<td><a href="https://www.mrcet.com/CSE.html" target="_blank">https://www.mrcet.com/CSE.html</a></td>
+		</tr>
+		<tr>
+			<td>Contact us</td>
+			<td><a href="https://www.mrcet.com/contact.html" target="_blank">https://www.mrcet.com/contact.html</a></td>
+		</tr>
+		<tr>
+			<td>Dcouments to be submitted</td>
+			<td><a href="https://mrcet.com/downloads/mtech16.pdf" target="_blank">https://mrcet.com/downloads/mtech16.pdf</a></td>
+		</tr>
+		<tr>
+			<td>Electrical & Electronics Engineering</td>
+			<td><a href="https://www.mrcet.com/EEE.html" target="_blank">https://www.mrcet.com/EEE.html</a></td>
+		</tr>
+		<tr>
+			<td>Electronics & Communication Engineering</td>
+			<td><a href="https://www.mrcet.com/ECE.html" target="_blank">https://www.mrcet.com/ECE.html</a></td>
+		</tr>
+		<tr>
+			<td>Examinations</td>
+			<td><a href="https://www.mrcet.com/ExamBranch.html" target="_blank">https://www.mrcet.com/ExamBranch.html</a></td>
+		</tr>
+		<tr>
+			<td>Governance</td>
+			<td><a href="https://www.mrcet.com/Governance.html" target="_blank">https://www.mrcet.com/Governance.html</a></td>
+		</tr>
+		<tr>
+			<td>Information Technology</td>
+			<td><a href="https://www.mrcet.com/IT.html" target="_blank">https://www.mrcet.com/IT.html</a></td>
+		</tr>
+		<tr>
+			<td>International Collaborations</td>
+			<td><a href="https://www.mrcet.com/InternationalCollaborations.html" target="_blank">https://www.mrcet.com/InternationalCollaborations.html</a></td>
+		</tr>
+		<tr>
+			<td>JNTUH Affiliations</td>
+			<td><a href="https://www.mrcet.com/JNTUHAffiliations.html" target="_blank">https://www.mrcet.com/JNTUHAffiliations.html</a></td>
+		</tr>
+		<tr>
+			<td>M.Tech courses</td>
+			<td><a href="https://www.mrcet.com/Mtech.html" target="_blank">https://www.mrcet.com/Mtech.html</a></td>
+		</tr>
+		<tr>
+			<td>Management</td>
+			<td><a href="https://www.mrcet.com/Management.html" target="_blank">https://www.mrcet.com/Management.html</a></td>
+		</tr>
+		<tr>
+			<td>Master of Business Administration</td>
+			<td><a href="https://www.mrcet.com/MBA.html" target="_blank">https://www.mrcet.com/MBA.html</a></td>
+		</tr>
+		<tr>
+			<td>Mechanical Engineering</td>
+			<td><a href="https://www.mrcet.com/ME.html" target="_blank">https://www.mrcet.com/ME.html</a></td>
+		</tr>
+		<tr>
+			<td>Principal</td>
+			<td><a href="https://www.mrcet.com/Principal.html" target="_blank">https://www.mrcet.com/Principal.html</a></td>
+		</tr>
+		<tr>
+			<td>Programmes offered</td>
+			<td><a href="https://www.mrcet.com/Programmes.html" target="_blank">https://www.mrcet.com/Programmes.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  About HOD</td>
+			<td><a href="https://www.mrcet.com/AE_abouthod.html" target="_blank">https://www.mrcet.com/AE_abouthod.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Academics</td>
+			<td><a href="https://www.mrcet.com/AE_academics.html" target="_blank">https://www.mrcet.com/AE_academics.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Achievements</td>
+			<td><a href="https://www.mrcet.com/AE_achievements.html" target="_blank">https://www.mrcet.com/AE_achievements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Activities during Covid-19 Lockdown</td>
+			<td><a href="https://www.mrcet.com/AE_Covid19.html" target="_blank">https://www.mrcet.com/AE_Covid19.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  BOS Members</td>
+			<td><a href="https://www.mrcet.com/AE_BOS_members.html" target="_blank">https://www.mrcet.com/AE_BOS_members.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Best Practices</td>
+			<td><a href="https://www.mrcet.com/AE_best_practices.html" target="_blank">https://www.mrcet.com/AE_best_practices.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Campus Placements</td>
+			<td><a href="https://www.mrcet.com/AE_campus_placements.html" target="_blank">https://www.mrcet.com/AE_campus_placements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Department Home</td>
+			<td><a href="https://www.mrcet.com/AE.html" target="_blank">https://www.mrcet.com/AE.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Downloads</td>
+			<td><a href="https://www.mrcet.com/AE_downloads.html" target="_blank">https://www.mrcet.com/AE_downloads.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Faculty</td>
+			<td><a href="https://www.mrcet.com/AE_faculty.html" target="_blank">https://www.mrcet.com/AE_faculty.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Infrastructure</td>
+			<td><a href="https://www.mrcet.com/AE_infrastructure.html" target="_blank">https://www.mrcet.com/AE_infrastructure.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  International Conference</td>
+			<td><a href="http://www.icabmrcet.com" target="_blank">http://www.icabmrcet.com</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  NOTAM</td>
+			<td><a href="https://www.mrcet.com/AE_notam.html" target="_blank">https://www.mrcet.com/AE_notam.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  PEOs & POs</td>
+			<td><a href="https://www.mrcet.com/AE_peo_pos.html" target="_blank">https://www.mrcet.com/AE_peo_pos.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Photo Gallery</td>
+			<td><a href="https://www.mrcet.com/AE_photo_gallery.html" target="_blank">https://www.mrcet.com/AE_photo_gallery.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Professional Associations</td>
+			<td><a href="https://www.mrcet.com/AE_professional_associations.html" target="_blank">https://www.mrcet.com/AE_professional_associations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE.html:  Vision & Mission</td>
+			<td><a href="https://www.mrcet.com/AE_vision_mission.html" target="_blank">https://www.mrcet.com/AE_vision_mission.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE_downloads.html:Academic Calenders & Syllabus:Academic Regulations(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/AcademicRegulations.html" target="_blank">https://www.mrcet.com/AcademicRegulations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE_downloads.html:Academic Calenders & Syllabus:B.Tech  II ,III & IV  Academic Calendar For the Academic Year 2019-2020</td>
+			<td><a href="https://www.mrcet.com/AcademicCalendar.html" target="_blank">https://www.mrcet.com/AcademicCalendar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE_downloads.html:Academic Calenders & Syllabus:Course Structure and Syllabus(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/Syllabus.html" target="_blank">https://www.mrcet.com/Syllabus.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/AE_downloads.html:Academic Calenders & Syllabus:M.Tech  I & II  Academic Calendar For the Academic Year 2019-2020</td>
+			<td><a href="https://www.mrcet.com/AcademicCalendar.html" target="_blank">https://www.mrcet.com/AcademicCalendar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  About Director</td>
+			<td><a href="https://www.mrcet.com/CSE_about_director.html" target="_blank">https://www.mrcet.com/CSE_about_director.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  About HOD</td>
+			<td><a href="https://www.mrcet.com/CSE_abouthod.html" target="_blank">https://www.mrcet.com/CSE_abouthod.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Academics</td>
+			<td><a href="https://www.mrcet.com/CSE_academics.html" target="_blank">https://www.mrcet.com/CSE_academics.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Achievements</td>
+			<td><a href="https://www.mrcet.com/CSE_achievements.html" target="_blank">https://www.mrcet.com/CSE_achievements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Activities during Covid-19 Lockdown</td>
+			<td><a href="https://www.mrcet.com/CSE_Covid19.html" target="_blank">https://www.mrcet.com/CSE_Covid19.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  BOS Members</td>
+			<td><a href="https://www.mrcet.com/CSE_BOS_members.html" target="_blank">https://www.mrcet.com/CSE_BOS_members.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Best Practices</td>
+			<td><a href="https://www.mrcet.com/CSE_best_practices.html" target="_blank">https://www.mrcet.com/CSE_best_practices.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  CSE Gallery</td>
+			<td><a href="https://www.mrcet.com/CSE_gallery.html" target="_blank">https://www.mrcet.com/CSE_gallery.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Campus Placements</td>
+			<td><a href="https://www.mrcet.com/CSE_campus_placements.html" target="_blank">https://www.mrcet.com/CSE_campus_placements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Department Home</td>
+			<td><a href="https://www.mrcet.com/CSE.html" target="_blank">https://www.mrcet.com/CSE.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Downloads</td>
+			<td><a href="https://www.mrcet.com/CSE_downloads.html" target="_blank">https://www.mrcet.com/CSE_downloads.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Events</td>
+			<td><a href="https://www.mrcet.com/CSE_Events.html" target="_blank">https://www.mrcet.com/CSE_Events.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Faculty</td>
+			<td><a href="https://www.mrcet.com/CSE_faculty.html" target="_blank">https://www.mrcet.com/CSE_faculty.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Infrastructure</td>
+			<td><a href="https://www.mrcet.com/CSE_infrastructure.html" target="_blank">https://www.mrcet.com/CSE_infrastructure.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Innovation Club</td>
+			<td><a href="http://mrcetglug.swecha.io/" target="_blank">http://mrcetglug.swecha.io/</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  International Conference</td>
+			<td><a href="http://www.icscsp.com/" target="_blank">http://www.icscsp.com/</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Newsletter</td>
+			<td><a href="https://www.mrcet.com/CSE_Megabyte.html" target="_blank">https://www.mrcet.com/CSE_Megabyte.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Outcome Based Education</td>
+			<td><a href="https://www.mrcet.com/CSE_peo_pos.html" target="_blank">https://www.mrcet.com/CSE_peo_pos.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Professional Associations</td>
+			<td><a href="https://www.mrcet.com/CSE_professional_associations.html" target="_blank">https://www.mrcet.com/CSE_professional_associations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Software Development Cell</td>
+			<td><a href="https://www.mrcet.com/CSE_Software_Development_Cell.html" target="_blank">https://www.mrcet.com/CSE_Software_Development_Cell.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:  Vision & Mission</td>
+			<td><a href="https://www.mrcet.com/CSE_vision_mission.html" target="_blank">https://www.mrcet.com/CSE_vision_mission.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE.html:View Full Profile �</td>
+			<td><a href="https://www.mrcet.com/SUJATHA.html" target="_blank">https://www.mrcet.com/SUJATHA.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE_downloads.html:Academic Calenders & Syllabus:Academic Regulations(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/AcademicRegulations.html" target="_blank">https://www.mrcet.com/AcademicRegulations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE_downloads.html:Academic Calenders & Syllabus:B.Tech  II ,III & IV  Academic Calendar For the Academic Year 2019-2020</td>
+			<td><a href="https://www.mrcet.com/AcademicCalendar.html" target="_blank">https://www.mrcet.com/AcademicCalendar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE_downloads.html:Academic Calenders & Syllabus:Course Structure and Syllabus(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/Syllabus.html" target="_blank">https://www.mrcet.com/Syllabus.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/CSE_downloads.html:Academic Calenders & Syllabus:M.Tech  I & II  Academic Calendar For the Academic Year 2019-2020</td>
+			<td><a href="https://www.mrcet.com/AcademicCalendar.html" target="_blank">https://www.mrcet.com/AcademicCalendar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  About Director</td>
+			<td><a href="https://www.mrcet.com/ECE_about_director.html" target="_blank">https://www.mrcet.com/ECE_about_director.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  About HOD</td>
+			<td><a href="https://www.mrcet.com/ECE_abouthod.html" target="_blank">https://www.mrcet.com/ECE_abouthod.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Academics</td>
+			<td><a href="https://www.mrcet.com/ECE_academics.html" target="_blank">https://www.mrcet.com/ECE_academics.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Achievements</td>
+			<td><a href="https://www.mrcet.com/ECE_achievements.html" target="_blank">https://www.mrcet.com/ECE_achievements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Activities during Covid-19 Lockdown</td>
+			<td><a href="https://www.mrcet.com/ECE_Covid19.html" target="_blank">https://www.mrcet.com/ECE_Covid19.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  BOS Members</td>
+			<td><a href="https://www.mrcet.com/ECE_BOS_members.html" target="_blank">https://www.mrcet.com/ECE_BOS_members.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Best Practices</td>
+			<td><a href="https://www.mrcet.com/ECE_best_practices.html" target="_blank">https://www.mrcet.com/ECE_best_practices.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Campus Placements</td>
+			<td><a href="https://www.mrcet.com/ECE_campus_placements.html" target="_blank">https://www.mrcet.com/ECE_campus_placements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Centre Of Excellence In Robotics</td>
+			<td><a href="https://www.mrcet.com/ECE_Centre_Of_Excellence_In_Robotics.html" target="_blank">https://www.mrcet.com/ECE_Centre_Of_Excellence_In_Robotics.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Department Home</td>
+			<td><a href="https://www.mrcet.com/ECE.html" target="_blank">https://www.mrcet.com/ECE.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Downloads</td>
+			<td><a href="https://www.mrcet.com/ECE_downloads.html" target="_blank">https://www.mrcet.com/ECE_downloads.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  ECE Gallery</td>
+			<td><a href="https://www.mrcet.com/ECE_gallery.html" target="_blank">https://www.mrcet.com/ECE_gallery.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Events</td>
+			<td><a href="https://www.mrcet.com/ECE_Events.html" target="_blank">https://www.mrcet.com/ECE_Events.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Faculty</td>
+			<td><a href="https://www.mrcet.com/ECE_faculty.html" target="_blank">https://www.mrcet.com/ECE_faculty.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Infrastructure</td>
+			<td><a href="https://www.mrcet.com/ECE_infrastructure.html" target="_blank">https://www.mrcet.com/ECE_infrastructure.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  International Conference</td>
+			<td><a href="http://www.icscsp.com/" target="_blank">http://www.icscsp.com/</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  NEWS뭙llite</td>
+			<td><a href="https://www.mrcet.com/ECE_NEWS_llite.html" target="_blank">https://www.mrcet.com/ECE_NEWS_llite.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Outcome Based Education</td>
+			<td><a href="https://www.mrcet.com/ECE_peo_pos.html" target="_blank">https://www.mrcet.com/ECE_peo_pos.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Professional Associations</td>
+			<td><a href="https://www.mrcet.com/ECE_professional_associations.html" target="_blank">https://www.mrcet.com/ECE_professional_associations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:  Vision & Mission</td>
+			<td><a href="https://www.mrcet.com/ECE_vision_mission.html" target="_blank">https://www.mrcet.com/ECE_vision_mission.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE.html:View Full Profile �</td>
+			<td><a href="https://www.mrcet.com/S%20Srinivasa%20Rao.html" target="_blank">https://www.mrcet.com/S%20Srinivasa%20Rao.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE_downloads.html:Academic Calendars & Syllabus:Academic Regulations(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/AcademicRegulations.html" target="_blank">https://www.mrcet.com/AcademicRegulations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE_downloads.html:Academic Calendars & Syllabus:B.Tech  II ,III & IV  Academic Calendar For the Academic Year 2019-2020</td>
+			<td><a href="https://www.mrcet.com/AcademicCalendar.html" target="_blank">https://www.mrcet.com/AcademicCalendar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE_downloads.html:Academic Calendars & Syllabus:Course Structure and Syllabus(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/Syllabus.html" target="_blank">https://www.mrcet.com/Syllabus.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ECE_downloads.html:Academic Calendars & Syllabus:M.Tech  I & II  Academic Calendar For the Academic Year 2019-2020</td>
+			<td><a href="https://www.mrcet.com/AcademicCalendar.html" target="_blank">https://www.mrcet.com/AcademicCalendar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  About Director</td>
+			<td><a href="https://www.mrcet.com/EEE_about_director.html" target="_blank">https://www.mrcet.com/EEE_about_director.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  About HOD</td>
+			<td><a href="https://www.mrcet.com/EEE_about_hod.html" target="_blank">https://www.mrcet.com/EEE_about_hod.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  Academics</td>
+			<td><a href="https://www.mrcet.com/EEE_academics.html" target="_blank">https://www.mrcet.com/EEE_academics.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  Activities during Covid-19 Lockdown</td>
+			<td><a href="https://www.mrcet.com/EEE_Covid19.html" target="_blank">https://www.mrcet.com/EEE_Covid19.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  Best Practices</td>
+			<td><a href="https://www.mrcet.com/EEE_Practices.html" target="_blank">https://www.mrcet.com/EEE_Practices.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  Department Home</td>
+			<td><a href="https://www.mrcet.com/EEE.html" target="_blank">https://www.mrcet.com/EEE.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  Downloads</td>
+			<td><a href="https://www.mrcet.com/EEE_downloads.html" target="_blank">https://www.mrcet.com/EEE_downloads.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  EEE Gallery</td>
+			<td><a href="https://www.mrcet.com/EEE_gallery.html" target="_blank">https://www.mrcet.com/EEE_gallery.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  Events</td>
+			<td><a href="https://www.mrcet.com/EEE_Events.html" target="_blank">https://www.mrcet.com/EEE_Events.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  Faculty</td>
+			<td><a href="https://www.mrcet.com/EEE_faculty.html" target="_blank">https://www.mrcet.com/EEE_faculty.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  PEOs & PSOs</td>
+			<td><a href="https://www.mrcet.com/EEE_peo_pos.html" target="_blank">https://www.mrcet.com/EEE_peo_pos.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:  Vision & Mission</td>
+			<td><a href="https://www.mrcet.com/EEE_vision_mission.html" target="_blank">https://www.mrcet.com/EEE_vision_mission.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html: Activities during Covid-19 Lockdown</td>
+			<td><a href="https://www.mrcet.com/EEE_Covid19.html" target="_blank">https://www.mrcet.com/EEE_Covid19.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html: EEE Gallery</td>
+			<td><a href="https://www.mrcet.com/EEE_gallery.html" target="_blank">https://www.mrcet.com/EEE_gallery.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html: International Conference</td>
+			<td><a href="http://www.icimes.com" target="_blank">http://www.icimes.com</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE.html:View Full Profile �</td>
+			<td><a href="https://www.mrcet.com/EEE_about_hod.html" target="_blank">https://www.mrcet.com/EEE_about_hod.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE_downloads.html:Academic Calendars & Syllabus:Academic Regulations(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/AcademicRegulations.html" target="_blank">https://www.mrcet.com/AcademicRegulations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE_downloads.html:Academic Calendars & Syllabus:B.Tech  II ,III & IV  Academic Calendar For the Academic Year 2019-2020</td>
+			<td><a href="https://www.mrcet.com/AcademicCalendar.html" target="_blank">https://www.mrcet.com/AcademicCalendar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/EEE_downloads.html:Academic Calendars & Syllabus:Course Structure and Syllabus(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/Syllabus.html" target="_blank">https://www.mrcet.com/Syllabus.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  About Director</td>
+			<td><a href="https://www.mrcet.com/IT_about_director.html" target="_blank">https://www.mrcet.com/IT_about_director.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  About HOD</td>
+			<td><a href="https://www.mrcet.com/IT_abouthod.html" target="_blank">https://www.mrcet.com/IT_abouthod.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Academics</td>
+			<td><a href="https://www.mrcet.com/IT_academics.html" target="_blank">https://www.mrcet.com/IT_academics.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Achievements</td>
+			<td><a href="https://www.mrcet.com/IT_achievements.html" target="_blank">https://www.mrcet.com/IT_achievements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Activities during Covid-19 Lockdown</td>
+			<td><a href="https://www.mrcet.com/IT_Covid19.html" target="_blank">https://www.mrcet.com/IT_Covid19.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  BOS Members</td>
+			<td><a href="https://www.mrcet.com/IT_BOS_members.html" target="_blank">https://www.mrcet.com/IT_BOS_members.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Best Practices</td>
+			<td><a href="https://www.mrcet.com/IT_best_practices.html" target="_blank">https://www.mrcet.com/IT_best_practices.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Campus Placements</td>
+			<td><a href="https://www.mrcet.com/IT_campus_placements.html" target="_blank">https://www.mrcet.com/IT_campus_placements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Department Home</td>
+			<td><a href="https://www.mrcet.com/IT.html" target="_blank">https://www.mrcet.com/IT.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Downloads</td>
+			<td><a href="https://www.mrcet.com/IT_downloads.html" target="_blank">https://www.mrcet.com/IT_downloads.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Events</td>
+			<td><a href="https://www.mrcet.com/IT_Events.html" target="_blank">https://www.mrcet.com/IT_Events.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Faculty</td>
+			<td><a href="https://www.mrcet.com/IT_faculty.html" target="_blank">https://www.mrcet.com/IT_faculty.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Infrastructure</td>
+			<td><a href="https://www.mrcet.com/IT_infrastructure.html" target="_blank">https://www.mrcet.com/IT_infrastructure.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  International Conference</td>
+			<td><a href="http://www.icscsp.com/" target="_blank">http://www.icscsp.com/</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  News letter</td>
+			<td><a href="https://www.mrcet.com/IT_newsletter.html" target="_blank">https://www.mrcet.com/IT_newsletter.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Outcome Based Education</td>
+			<td><a href="https://www.mrcet.com/IT_peo_pos.html" target="_blank">https://www.mrcet.com/IT_peo_pos.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Photo Gallery</td>
+			<td><a href="https://www.mrcet.com/IT_gallery.html" target="_blank">https://www.mrcet.com/IT_gallery.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Professional Associations</td>
+			<td><a href="https://www.mrcet.com/IT_professional_associations.html" target="_blank">https://www.mrcet.com/IT_professional_associations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:  Vision & Mission</td>
+			<td><a href="https://www.mrcet.com/IT_vision_mission.html" target="_blank">https://www.mrcet.com/IT_vision_mission.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html: Outcome Based Education</td>
+			<td><a href="https://www.mrcet.com/IT_peo_pos.html" target="_blank">https://www.mrcet.com/IT_peo_pos.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT.html:View Full Profile �</td>
+			<td><a href="https://www.mrcet.com/hod-gouriganesh.html" target="_blank">https://www.mrcet.com/hod-gouriganesh.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT_downloads.html:Academic Calenders & Syllabus:Academic Regulations(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/AcademicRegulations.html" target="_blank">https://www.mrcet.com/AcademicRegulations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT_downloads.html:Academic Calenders & Syllabus:B.Tech  II ,III & IV  Academic Calendar For the Academic Year 2019-2020</td>
+			<td><a href="https://www.mrcet.com/AcademicCalendar.html" target="_blank">https://www.mrcet.com/AcademicCalendar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/IT_downloads.html:Academic Calenders & Syllabus:Course Structure and Syllabus(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/Syllabus.html" target="_blank">https://www.mrcet.com/Syllabus.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/InternationalCollaborations.html:  Abroad Universities</td>
+			<td><a href="https://www.mrcet.com/InternationalCollaborations_AU.html" target="_blank">https://www.mrcet.com/InternationalCollaborations_AU.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/InternationalCollaborations.html:  Gallery</td>
+			<td><a href="https://www.mrcet.com/InternationalCollaborations_gallery.html" target="_blank">https://www.mrcet.com/InternationalCollaborations_gallery.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/InternationalCollaborations.html:  Global Educational Fairs</td>
+			<td><a href="https://www.mrcet.com/InternationalCollaborations_GEF.html" target="_blank">https://www.mrcet.com/InternationalCollaborations_GEF.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/InternationalCollaborations.html:  International Collaborations</td>
+			<td><a href="https://www.mrcet.com/InternationalCollaborations.html" target="_blank">https://www.mrcet.com/InternationalCollaborations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/InternationalCollaborations.html:  International Delegation Visits</td>
+			<td><a href="https://www.mrcet.com/Internationaldelegationvisits.html" target="_blank">https://www.mrcet.com/Internationaldelegationvisits.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  About HOD</td>
+			<td><a href="https://www.mrcet.com/MBA_abouthod.html" target="_blank">https://www.mrcet.com/MBA_abouthod.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  Academics</td>
+			<td><a href="https://www.mrcet.com/MBA_academics.html" target="_blank">https://www.mrcet.com/MBA_academics.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  Achievements</td>
+			<td><a href="https://www.mrcet.com/MBA_achievements.html" target="_blank">https://www.mrcet.com/MBA_achievements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  BOS Members</td>
+			<td><a href="https://www.mrcet.com/MBA_BOS_members.html" target="_blank">https://www.mrcet.com/MBA_BOS_members.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  Best Practices</td>
+			<td><a href="https://www.mrcet.com/MBA_best_practices.html" target="_blank">https://www.mrcet.com/MBA_best_practices.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  Campus Placements</td>
+			<td><a href="https://www.mrcet.com/MBA_campus_placements.html" target="_blank">https://www.mrcet.com/MBA_campus_placements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  Department Home</td>
+			<td><a href="https://www.mrcet.com/MBA.html" target="_blank">https://www.mrcet.com/MBA.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  Downloads</td>
+			<td><a href="https://www.mrcet.com/MBA_downloads.html" target="_blank">https://www.mrcet.com/MBA_downloads.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  Events</td>
+			<td><a href="https://www.mrcet.com/MBA_Events.html" target="_blank">https://www.mrcet.com/MBA_Events.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  Faculty</td>
+			<td><a href="https://www.mrcet.com/MBA_faculty.html" target="_blank">https://www.mrcet.com/MBA_faculty.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  Infrastructure</td>
+			<td><a href="https://www.mrcet.com/MBA_infrastructure.html" target="_blank">https://www.mrcet.com/MBA_infrastructure.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  International Conference</td>
+			<td><a href="http://www.icsbe.com" target="_blank">http://www.icsbe.com</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  MBA Gallery</td>
+			<td><a href="https://www.mrcet.com/MBA_gallery.html" target="_blank">https://www.mrcet.com/MBA_gallery.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  PEOs & POs</td>
+			<td><a href="https://www.mrcet.com/MBA_peo_pos.html" target="_blank">https://www.mrcet.com/MBA_peo_pos.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  Professional Associations</td>
+			<td><a href="https://www.mrcet.com/MBA_professional_associations.html" target="_blank">https://www.mrcet.com/MBA_professional_associations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:  Vision & Mission</td>
+			<td><a href="https://www.mrcet.com/MBA_vision_mission.html" target="_blank">https://www.mrcet.com/MBA_vision_mission.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA.html:View Full Profile �</td>
+			<td><a href="https://www.mrcet.com/G.%20Naveen%20Kumar.html" target="_blank">https://www.mrcet.com/G.%20Naveen%20Kumar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA_downloads.html:Academic Calendars & Syllabus:Academic Regulations(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/AcademicRegulations.html" target="_blank">https://www.mrcet.com/AcademicRegulations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA_downloads.html:Academic Calendars & Syllabus:Course Structure and Syllabus(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/Syllabus.html" target="_blank">https://www.mrcet.com/Syllabus.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/MBA_downloads.html:Academic Calendars & Syllabus:MBA  I & II  Academic Calendar For the Academic Year 2019-2020</td>
+			<td><a href="https://www.mrcet.com/AcademicCalendar.html" target="_blank">https://www.mrcet.com/AcademicCalendar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  About HOD</td>
+			<td><a href="https://www.mrcet.com/ME_abouthod.html" target="_blank">https://www.mrcet.com/ME_abouthod.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Academics</td>
+			<td><a href="https://www.mrcet.com/ME_academics.html" target="_blank">https://www.mrcet.com/ME_academics.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Achievements</td>
+			<td><a href="https://www.mrcet.com/ME_achievements.html" target="_blank">https://www.mrcet.com/ME_achievements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Activities during Covid-19 Lockdown</td>
+			<td><a href="https://www.mrcet.com/ME_Covid19.html" target="_blank">https://www.mrcet.com/ME_Covid19.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  BOS Members</td>
+			<td><a href="https://www.mrcet.com/ME_BOS_members.html" target="_blank">https://www.mrcet.com/ME_BOS_members.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Best Practices</td>
+			<td><a href="https://www.mrcet.com/ME_best_practices.html" target="_blank">https://www.mrcet.com/ME_best_practices.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Campus Placements</td>
+			<td><a href="https://www.mrcet.com/ME_campus_placements.html" target="_blank">https://www.mrcet.com/ME_campus_placements.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Department Home</td>
+			<td><a href="https://www.mrcet.com/ME.html" target="_blank">https://www.mrcet.com/ME.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Downloads</td>
+			<td><a href="https://www.mrcet.com/ME_downloads.html" target="_blank">https://www.mrcet.com/ME_downloads.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Events</td>
+			<td><a href="https://www.mrcet.com/ME_Events.html" target="_blank">https://www.mrcet.com/ME_Events.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Faculty</td>
+			<td><a href="https://www.mrcet.com/ME_faculty.html" target="_blank">https://www.mrcet.com/ME_faculty.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Infrastructure</td>
+			<td><a href="https://www.mrcet.com/ME_infrastructure.html" target="_blank">https://www.mrcet.com/ME_infrastructure.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  International Conference</td>
+			<td><a href="http://www.icimes.com" target="_blank">http://www.icimes.com</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  ME Gallery</td>
+			<td><a href="https://www.mrcet.com/ME_gallery.html" target="_blank">https://www.mrcet.com/ME_gallery.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Outcome Based Education</td>
+			<td><a href="https://www.mrcet.com/ME_peo_pos.html" target="_blank">https://www.mrcet.com/ME_peo_pos.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Student Activity Center</td>
+			<td><a href="https://www.mrcet.com/ME_professional_associations.html" target="_blank">https://www.mrcet.com/ME_professional_associations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Student Training / Workshops</td>
+			<td><a href="https://www.mrcet.com/ME_StudentTrainingWorkshops.html" target="_blank">https://www.mrcet.com/ME_StudentTrainingWorkshops.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Vision & Mission</td>
+			<td><a href="https://www.mrcet.com/ME_vision_mission.html" target="_blank">https://www.mrcet.com/ME_vision_mission.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  Yantri Lekha</td>
+			<td><a href="https://www.mrcet.com/ME_YANTRI%20LEKHA.html" target="_blank">https://www.mrcet.com/ME_YANTRI%20LEKHA.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:  center of Excellence</td>
+			<td><a href="https://www.mrcet.com/ME_centerofExcellence.html" target="_blank">https://www.mrcet.com/ME_centerofExcellence.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:2&3 Year Consolidated List of Student Achievements in various Courses during Lockdown Period.</td>
+			<td><a href="https://icimes.com/" target="_blank">https://icimes.com/</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:ICIMES 2020, August 21-22, 2020.</td>
+			<td><a href="https://icimes.com/" target="_blank">https://icimes.com/</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME.html:View Full Profile �</td>
+			<td><a href="https://www.mrcet.com/ME_abouthod.html" target="_blank">https://www.mrcet.com/ME_abouthod.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME_downloads.html:Academic Calendars & Syllabus:Academic Regulations(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/AcademicRegulations.html" target="_blank">https://www.mrcet.com/AcademicRegulations.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME_downloads.html:Academic Calendars & Syllabus:B.Tech  II ,III & IV  Academic Calendar For the Academic Year 2019-2020</td>
+			<td><a href="https://www.mrcet.com/AcademicCalendar.html" target="_blank">https://www.mrcet.com/AcademicCalendar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME_downloads.html:Academic Calendars & Syllabus:Course Structure and Syllabus(R-18/ R-17/ R15)</td>
+			<td><a href="https://www.mrcet.com/Syllabus.html" target="_blank">https://www.mrcet.com/Syllabus.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME_downloads.html:Academic Calendars & Syllabus:M.Tech  I & II  Academic Calendar For the Academic Year 2019-2020</td>
+			<td><a href="https://www.mrcet.com/AcademicCalendar.html" target="_blank">https://www.mrcet.com/AcademicCalendar.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/ME_downloads.html:Project Templates:01 B.Tech Major Project Cover Page</td>
+			<td><a href="https://www.mrcet.com/downloads/Project_Templates/ME/B.Tech%20Major%20project%20Template/01%20B.Tech%20Major%20Project%20Cover%20Page.docx" target="_blank">https://www.mrcet.com/downloads/Project_Templates/ME/B.Tech%20Major%20project%20Template/01%20B.Tech%20Major%20Project%20Cover%20Page.docx</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/alumni.html:  Alumni Body</td>
+			<td><a href="https://www.mrcet.com/alumni_body.html" target="_blank">https://www.mrcet.com/alumni_body.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/alumni.html:  Alumni Events</td>
+			<td><a href="https://www.mrcet.com/alumni_events.html" target="_blank">https://www.mrcet.com/alumni_events.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/alumni.html:  Gallery</td>
+			<td><a href="https://www.mrcet.com/alumni_gallery.html" target="_blank">https://www.mrcet.com/alumni_gallery.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/alumni.html:  Messages</td>
+			<td><a href="https://www.mrcet.com/alumni_messages.html" target="_blank">https://www.mrcet.com/alumni_messages.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/alumni.html:  Organizing secretary from institution</td>
+			<td><a href="https://www.mrcet.com/alumni_Organizing%20secretary%20from%20institution.html" target="_blank">https://www.mrcet.com/alumni_Organizing%20secretary%20from%20institution.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/alumni.html:  Student Testimonals</td>
+			<td><a href="https://www.mrcet.com/alumni_testimonals.html" target="_blank">https://www.mrcet.com/alumni_testimonals.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/alumni.html: Alumni Registration</td>
+			<td><a href="https://www.mrcet.com/alumni_reg.html" target="_blank">https://www.mrcet.com/alumni_reg.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/alumni.html: MRCET Alumni</td>
+			<td><a href="https://www.mrcet.com/alumni.html" target="_blank">https://www.mrcet.com/alumni.html</a></td>
+		</tr>
+		<tr>
+			<td>https://www.mrcet.com/alumni.html: Student Achievements</td>
+			<td><a href="https://www.mrcet.com/alumni_achievements.html" target="_blank">https://www.mrcet.com/alumni_achievements.html</a></td>
+		</tr>
+		<tr>
+			<td>scholarship</td>
+			<td><a href="https://www.mrcet.com/Scholarship.html" target="_blank">https://www.mrcet.com/Scholarship.html</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<script >$(document).ready( function () { $('#webptableid').DataTable();} );</script>
+</body>
+</html>

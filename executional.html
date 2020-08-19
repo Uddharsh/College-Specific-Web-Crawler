@@ -1,0 +1,233 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    	<script src="https://code.jquery.com/jquery-3.5.1.js"></script> 
+	</head>
+	<body style="background-color: 	#1b262c">
+  		<div class="header  text-black row-md">
+  			<nav class="navbar navbar-expand-sm navbar-light fixed-topsticky-top" style="background-color:#d3dbff">
+  				<div class="header_picture col-md-2">
+         			<a href="https://www.mrcet.com">
+					<img src="mrcetlogo2.jfif" alt= "College Logo" class="img-fluid float-right rounded" id="College_Logo" name="Logo">
+          			</a>
+				</div>
+  				<div class="header_text col-md-10">
+  					<h1 id="main_header" name="main_header1">Malla Reddy College of Engineering and Technology</h1>
+  					<h5 style="color: #dd2c00">Autonomous Institution - UGC, Govt. of India</h5>
+  					<h6>APPROVED BY AICTE, ACCREDITED BY NBA & NAAC – 'A' GRADE</h6>
+  					<div class="row">
+  						<div class="col-md-6">
+							<p>ISO 9001:2015 CERTIFIED</p>
+						</div>
+  						<div class="col-md-6">
+							<h4>EAMCET/ICET/PGECET CODE: <strong>MLRD</strong></h4>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div style="background-color: #1b262c; color: white;">
+			<div class="container-fluid">
+					<br><br>
+					<h5>STEP 1 : Enter the URL to be crawled:</h5>
+					<div class="input-group mb-3">
+    					<div class="input-group-prepend">
+      						<span class="input-group-text">URL:</span>
+    					</div>
+					<input type="text" class="form-control" placeholder="https://www.mrcet.com">
+					<div class="input-group-append">
+      						<button class="btn btn-success" type="submit" onclick="clicked()">Go</button>
+    				</div>
+				</div>
+				<div id="bclicked" style="display: 	none">
+    					<h6>CRAWLING INITIATED!</h6>
+    					<br>
+    					<h5> RUNNING seekr.py (CRAWLER)</h5>
+    					<a href="./seekr.py" target="_blank">	
+    						<img src="./py_img.png" alt="seekr.py" style="width:150px;height:200px;">
+    					</a>
+    					<br>
+    					<div id="spinning" class="spinner-border text-primary"></div>
+				</div>
+				<div id="b2clicked" style="display: 	none">
+					<h5> Successfully RAN seekr.py (CRAWLER)</h5>
+    				<a href="./seekr.py" target="_blank">	
+    					<img src="./py_img.png" alt="seekr.py" style="width:150px;height:200px;">
+    				</a>
+    				<br>
+    				<br>
+					<div class="progress-bar bg-info" style="width:100%">CRAWLING COMPLETE!</div>
+    				<br>   
+    				<h4>Obtained data stored in:</h4>
+    				<br>
+    				<div class="row">
+    					<div class="col-md-6">
+    						<h6>File 1: Document.json</h6>
+    						<a href="./document.json" target="_blank">
+    							<img src="./json_img.png" alt="document.json" style="width:150px;height:200px;">
+    						</a>
+    					</div>	
+    					<div class="col-md-6">
+    						<h6>File 2: Webpage.json</h6>
+    						<a href="./webpage.json" target="_blank">
+    							<img src="./json_img.png" alt="webpage.json" style="width:150px;height:200px;">
+    						</a>
+    					</div>
+    				</div>
+    				<br>	
+    				<hr>
+    				<br>
+    				<h5>STEP 2 : Convert obtained data into html tables:</h5>	
+    				<br>
+    				<div>
+    					<div class="row">
+    						<div class="col-md-3">
+    							<div class="container-fluid	">
+    								<h5>RUN perform.py,</h5>
+    								<a href="./perform.py" target="_blank">	
+    									<img src="./py_img.png" alt="perform.py" style="width:150px;height:200px;">
+    								</a>
+    							</div>
+    						</div>
+    						<div class="col-md-4">
+    							<div class="container-fluid	">
+    								<h5>which uses the document.json file,</h5>
+    								<a href="./document.json" target="_blank">	
+    									<img src="./json_img.png" alt="document.json" style="width:150px;height:200px;">
+    								</a>
+    							</div>
+    						</div>
+    						<div class="col-md-5">
+    							<div class="container-fluid	">
+    								<h5>to generate the doc_table.html file.</h5>
+    								<a href="./doc_table.html" target="_blank">	
+    									<img src="./html_img.png" alt="doc_table.html" style="width:150px;height:200px;">
+    								</a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    				<br><br>
+    				<div>
+    					<div class="row">
+    						<div class="col-md-3">
+    							<div class="container-fluid">
+    								<h5>RUN perform2.py,</h5>
+    								<a href="./perform2.py" target="_blank">	
+    									<img src="./py_img.png" alt="perform2.py" style="width:150px;height:200px;">
+    								</a>
+    							</div>
+    						</div>
+    						<div class="col-md-4">
+    							<div class="container-fluid">
+    								<h5>which uses the document.json file,</h5>
+    								<a href="./webpage.json" target="_blank">
+    									<img src="./json_img.png" alt="webpage.json" style="width:150px;height:200px;">
+    								</a>
+    							</div>
+    						</div>
+    						<div class="col-md-5">
+    							<div class="container-fluid">
+    								<h5>to generate the webpage_table.html file</h5>
+    								<a href="./webpage_table.html" target="_blank">
+    									<img src="./html_img.png" alt="webpage_table.html" style="width:150px;height:200px;">
+    								</a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    				<br>	
+    				<hr>
+    				<br>
+    				<h5>STEP 3 : Append the data tables in doc_table.html and webpage_table.html to userdoc.html and userwebpage.html</h5>
+    				<br><br>
+    				<div>
+    					<div class="row">
+    						<div class="col-md-3">
+    							<div class="container-fluid	">
+    								<h5>Files Generated:</h5>
+    								<br>
+    								<h5>userdoc.html</h5>
+    								<a href="./userdoc.html" target="_blank">	
+    									<img src="./html_img.png" alt="USERDOC" style="width:150px;height:200px;">
+    								</a>
+    								<br><br>
+    								<h5>userwebpage.html</h5>
+    								<a href="./userwebpage.html" target="_blank">	
+    									<img src="./html_img.png" alt="USERWEBPAGE" style="width:150px;height:200px;">
+    								</a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    				<br><br>
+    				<h5>STEP 4 : Include the file userdoc.html and userwebpage.html in the main userif.html file.</h5>
+    				<br><br>
+    				<div>
+    					<div class="container-fluid	">
+    						<h5>USER Interface File</h5>
+    						<br>
+    						<h3>Click the file below, to access the main page.</h3>
+    						<a href="./userif.html" target="_blank">	
+    							<img src="./html_img.png" alt="USER I/F" style="width:150px;height:200px;">
+    						</a>
+    						<h5>userif.html</h5>
+    					</div>
+    				</div>
+                    <br><br>
+                    <h5>STEP 5 : Let the user choose between Document table and Webpage table from the dropdown menu.</h5>
+                    <br><br>
+                    <div>
+                        <div class="container-fluid ">
+                            <h5>If user chooses Document table, display userdoc.html in a new tab.</h5>
+                            <br>
+                            <h3>File link:</h3>
+                            <a href="./userdoc.html" target="_blank">    
+                                <img src="./html_img.png" alt="USER DOC" style="width:150px;height:200px;">
+                            </a>
+                            <h5>userdoc.html</h5>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div>
+                        <div class="container-fluid ">
+                            <h5>If user chooses Webpage table, display userwebpage.html in a new tab.</h5>
+                            <br>
+                            <h3>File link:</h3>
+                            <a href="./userwebpage.html" target="_blank">    
+                                <img src="./html_img.png" alt="USER Webpage" style="width:150px;height:200px;">
+                            </a>
+                            <h5>userwebpage.html</h5>
+                        </div>
+                    </div>
+				</div>
+			</div>
+			<br><br><br>
+		</div>
+		<script>
+		function clicked()
+			{
+					var x=document.getElementById("bclicked");
+					if(x.style.display==="none")
+					{
+							x.style.display="block";
+					}
+					setTimeout(function() { now(); }, 5000);
+			}
+			function now()
+			{
+				var x=document.getElementById("bclicked");
+				x.style.display="none"
+				var x=document.getElementById("b2clicked");
+				x.style.display="block"
+
+			}
+		</script>
+	</body>
+</html>
