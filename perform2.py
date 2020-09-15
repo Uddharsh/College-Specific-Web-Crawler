@@ -16,10 +16,11 @@ table+="	<link rel='stylesheet' type='text/css' href='https://cdn.datatables.net
 table+="	<script type='text/javascript' charset='utf8' src='https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js'></script>\n"
 table+="</head>\n"
 table+="<body>\n"
+table+="<div class='container-fluid table-responsive'>\n"
 table+= "<table class='table table-striped table-bordered table-hover' cellspacing='0' width='100%' id='webptableid'>\n"
 
 # Create the table's column headers
-table+="	<thead>\n"
+table+="	<thead class='thead-dark'>\n"
 header = "webpage Heading,Webpage Link".split(",")
 table += "		<tr>\n"
 for column in header:
@@ -35,6 +36,7 @@ for x,y in my_data.items():
     table += "		</tr>\n"
 table+="	</tbody>\n"
 table += "</table>\n"
+table+="</div>"
 table+="<script >$(document).ready( function () { $('#webptableid').DataTable();} );</script>\n"
 table+="</body>\n"
 table+="</html>"
