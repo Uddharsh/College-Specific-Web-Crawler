@@ -2,7 +2,7 @@ import json
 
 f=open('webpage.json',)
 my_data=json.load(f)
-fileout = open("webpage_table.html", "w")
+fileout = open("webpage_table.html", "w",encoding="utf-8")
 table="<html>\n"
 table+="<head>\n"
 table+="	<title>Bootstrap Example</title>\n"
@@ -21,7 +21,7 @@ table+= "<table class='table table-striped table-bordered table-hover' cellspaci
 
 # Create the table's column headers
 table+="	<thead class='thead-dark'>\n"
-header = "webpage Heading,Webpage Link".split(",")
+header = "Webpage Heading,Webpage Link".split(",")
 table += "		<tr>\n"
 for column in header:
     table += "			<th>{0}</th>\n".format(column.strip())

@@ -11,8 +11,8 @@ import json
 
 college_url="https://www.mrcet.com" 
 college_page=urllib.request.urlopen(college_url)
-
-soup = BeautifulSoup(college_page, "html")
+print("URL CONNECTION ESTABLISHED.")
+soup = BeautifulSoup(college_page,features="lxml")
 
 college_html=soup.prettify()
 doc_links={}
@@ -305,19 +305,22 @@ def sub_internal_url_func(sub_internal_link):
     
 
 
-
+print("CRAWLING...")
 for i in section_ref_links.values():
+    time.sleep(0.75)
     if(i not in section_dict.values() and "mrceterp" not in i):
         try:
+            print(i)
             sub_internal_url_func(i)
         except:
-            continue
+        	print("!",i)
+        	continue
 for i in doc_links:
 	print(i,"	",doc_links[i])
 	print()
 y=json.dumps(hyper_links,indent=0,separators=(",", ":"),sort_keys=True)
 z=json.dumps(doc_links,indent=0,separators=(",", ":"),sort_keys=True)
-with open("webpage.json", "w") as outfile: 
+with open("webpage.json", "w",encoding="utf-8") as outfile: 
     outfile.write(y) 
-with open("document.json", "w") as outfile: 
+with open("document.json", "w",encoding="utf-8") as outfile: 
     outfile.write(z) 
